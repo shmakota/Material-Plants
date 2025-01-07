@@ -1,12 +1,13 @@
 [
     {
       "type": "MOD_INFO",
-      "ident": "materials_plants",
-      "name": "Magical Plants",
-      "authors": [ "Broken \"Spaghetti\" Admin" ],
-      "maintainers": [ "Broken \"Spaghetti\" Admin" ],
-      "description": "Adds mutated plants that grow materials like steel and gold.",
+      "id": "materials_plants",
+      "name": "Material Plants",
+      "authors": [ "Broken \"Spaghetti\" Admin", "Kota" ],
+      "maintainers": [ "Broken \"Spaghetti\" Admin", "Kota" ],
+      "description": "Adds mutated plants that grow materials like steel and gold.\n\nExhaustive list: aluminum, coal, gold, silver, zinc, tin, lead, copper, platinum, bronze, steel, rock, rocksalt, sulfur, limestone, gunpowder, kevlar, bleach, ammonia, ethanol, biodiesel, plastic, and meat.",
       "category": "items",
-      "dependencies": [ "dda" ]
+      "dependencies": [ "bn" ],
+      "obsolete": false
     }
 ]  

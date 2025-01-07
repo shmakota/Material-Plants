@@ -1,162 +1,451 @@
 [
     {
-     "abstract": "seed",
-     "type": "COMESTIBLE",
-     "comestible_type": "FOOD",
-     "description": "Seeds",
-     "name": "seed",
-     "category": "other",
-     "volume": 1,
-     "weight": 1,
-     "price": 120,
-     "charges": 4,
-     "stack_size": 100,
-     "material": "fruit",
-     "symbol": ".",
-     "color": "light_gray"
-   },
-   {
-    "id": "seed_steel",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "steel buckwheat seed",
-    "name-plural": "steel buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces steel nuggets, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "steel buckwheat",
-        "fruit": "nugget_steel",
-        "byproducts": [ "scrap", "buckwheat" ],
-        "grow": 100
+        "abstract": "seed",
+        "type": "COMESTIBLE",
+        "comestible_type": "FOOD",
+        "description": "Seeds",
+        "name": "seed",
+        "category": "other",
+        "volume": "250 ml",
+        "weight": 1,
+        "price": 120,
+        "charges": 4,
+        "stack_size": 100,
+        "material": "fruit",
+        "symbol": ".",
+        "color": "light_gray"
+    },
+    {
+        "id": "seed_steel",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "steel buckwheat seed",
+            "str_pl": "steel buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces steel chunks, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "steel buckwheat",
+            "fruit": "steel_chunk",
+            "byproducts": [ "scrap", "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_gold",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "gold buckwheat seed",
+            "str_pl": "gold buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces small gold pieces, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "gold buckwheat",
+            "fruit": "gold_small",
+            "byproducts": [ "buckwheat" ],
+            "grow": 1
+        }
+    },
+    {
+        "id": "seed_silver",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "silver buckwheat seed",
+            "str_pl": "silver buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces small siver pieces, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "silver buckwheat",
+            "fruit": "silver_small",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_alu",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "aluminum buckwheat seed",
+            "str_pl": "aluminum buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces small aluminum nuggets, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "aluminum buckwheat",
+            "fruit": "material_aluminium_ingot",
+            "//": "thank you whoever named it aluminium and not aluminum 8 years ago, much appreciated",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_coal",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "coal buckwheat seed",
+            "str_pl": "coal buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces small lumps of coal, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "coal buckwheat",
+            "fruit": "coal_lump",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_rock_salt",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "rock salt buckwheat seed",
+            "str_pl": "rock salt buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces peices of rock salt, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "rock salt buckwheat",
+            "fruit": "material_rocksalt",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_rock",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "rock buckwheat seed",
+            "str_pl": "rock buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces peices of rock, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "rock buckwheat",
+            "fruit": "rock",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_limestone",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "limestone buckwheat seed",
+            "str_pl": "limestone buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces large chunks of limestone, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "limestone buckwheat",
+            "fruit": "material_limestone",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_kev",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "kevlar buckwheat seed",
+            "str_pl": "kevlar buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces threads of kevlar, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "kevlar buckwheat",
+            "fruit": "thread_kevlar",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_plastic",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "plastic buckwheat seed",
+            "str_pl": "plastic buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces plastic, along with buckwheat. The planet thanks you.",
+        "seed_data": {
+            "plant_name": "plastic buckwheat",
+            "fruit": "plastic_chunk",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_zinc",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "zinc buckwheat seed",
+            "str_pl": "zinc buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces zinc, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "zinc buckwheat",
+            "fruit": "zinc_metal",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_lead",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "lead buckwheat seed",
+            "str_pl": "lead buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces lead, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "lead buckwheat",
+            "fruit": "lead",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_meat",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "meat buckwheat seed",
+            "str_pl": "meat buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces meat, along with buckwheat. It seems to make noises periodically.",
+        "seed_data": {
+            "plant_name": "meat buckwheat",
+            "fruit": "meat",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_ethanol",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "ethanol buckwheat seed",
+            "str_pl": "ethanol buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces ethanol, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "meat buckwheat",
+            "fruit": "ethanol_pod",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_gunpowder",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "gunpowder buckwheat seed",
+            "str_pl": "gunpowder buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces gunpowder, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "gunpowder buckwheat",
+            "fruit": "gunpowder",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_copper",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "copper buckwheat seed",
+            "str_pl": "copper buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces zinc, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "copper buckwheat",
+            "fruit": "copper",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_tin",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "tin buckwheat seed",
+            "str_pl": "tin buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces tin, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "tin buckwheat",
+            "fruit": "tin",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_platinum",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "platinum buckwheat seed",
+            "str_pl": "platinum buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces platinum, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "platinum buckwheat",
+            "fruit": "platinum_small",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_lead",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "lead buckwheat seed",
+            "str_pl": "lead buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces lead, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "lead buckwheat",
+            "fruit": "lead",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_sulfur",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "sulfur buckwheat seed",
+            "str_pl": "lead buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces sulfur, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "sulfur buckwheat",
+            "fruit": "chunk_sulfur",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_bronze",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "sulfur buckwheat seed",
+            "str_pl": "lead buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces bronze, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "bronze buckwheat",
+            "fruit": "scrap_bronze",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_bleach",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "bleach buckwheat seed",
+            "str_pl": "bleach buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces pods of bleach, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "bleach buckwheat",
+            "fruit": "bleach_pod",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_ammonia",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "ammonia buckwheat seed",
+            "str_pl": "ammonia buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces pods of ammonia, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "ammonia buckwheat",
+            "fruit": "ammonia_pod",
+            "byproducts": [ "buckwheat" ],
+            "grow": 100
+        }
+    },
+    {
+        "id": "seed_biodiesel",
+        "copy-from": "seed",
+        "type": "COMESTIBLE",
+        "name": {
+            "str": "biodiesel buckwheat seed",
+            "str_pl": "biodiesel buckwheat seeds"
+        },
+        "weight": 10,
+        "volume": "0 ml",
+        "description": "A mutated buckwheat plant that produces pods of biodiesel, along with buckwheat.",
+        "seed_data": {
+            "plant_name": "biodiesel buckwheat",
+            "fruit": "biodiesel_pod",
+            "byproducts": [ "buckwheat" ],
+            "grow": 1
+        }
     }
-   },
-   {
-    "id": "seed_gold",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "gold buckwheat seed",
-    "name-plural": "gold buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces small gold pieces, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "gold buckwheat",
-        "fruit": "gold_small",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_silver",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "silver buckwheat seed",
-    "name-plural": "silver buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces small siver pieces, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "silver buckwheat",
-        "fruit": "silver_small",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_alu",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "aluminum buckwheat seed",
-    "name-plural": "aluminum buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces small aluminum nuggets, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "aluminum buckwheat",
-        "fruit": "nugget_alu",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_coal",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "coal buckwheat seed",
-    "name-plural": "coal buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces small lumps of coal, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "coal buckwheat",
-        "fruit": "coal_lump",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_rock_salt",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "rock salt buckwheat seed",
-    "name-plural": "rock salt buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces peices of rock salt, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "rock salt buckwheat",
-        "fruit": "material_rocksalt",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_rock",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "rock buckwheat seed",
-    "name-plural": "rock buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces peices of rock, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "rock buckwheat",
-        "fruit": "rock",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_limestone",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "rock buckwheat seed",
-    "name-plural": "rock buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces large chunks of limestone, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "limestone buckwheat",
-        "fruit": "material_limestone",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   },
-   {
-    "id": "seed_kev",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": "kevlar buckwheat seed",
-    "name-plural": "kevlar buckwheat seeds",
-    "weight": 10,
-    "volume": 0,
-    "description": "A mutated buckwheat plant that produces threads of kevlar, along with buckwheat.",
-    "seed_data": {
-        "plant_name": "kevlar buckwheat",
-        "fruit": "kev_thread",
-        "byproducts": [ "buckwheat" ],
-        "grow": 100
-    }
-   }
 ]

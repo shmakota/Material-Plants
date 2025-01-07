@@ -5,10 +5,18 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "steel_chunk", 1 ], [ "steel_lump", 1 ], [ "scrap", 15 ], [ "nugget_steel", 10 ], [ "bar_steel", 1 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [
+                [ "steel_chunk", 1 ],
+                [ "steel_lump", 1 ],
+                [ "scrap", 15 ]
+            ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_gold",
@@ -16,10 +24,13 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "gold_small", 8 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "gold_small", 8 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_silver",
@@ -27,47 +38,59 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "silver_small", 8 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "silver_small", 8 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
-        "result": "steel_lump",
+        "result": "seed_platinum",
         "type": "recipe",
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_MATERIALS",
-        "skill_used": "mechanics",
-        "difficulty": 1,
-        "time": 3000,
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
         "autolearn": true,
-        "qualities": [ { "id": "HAMMER", "level": 2 } ],
-        "components": [ [ [ "bar_steel", 1 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "platinum_small", 8 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
-        "result": "steel_chunk",
+        "result": "seed_tin",
         "type": "recipe",
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_MATERIALS",
-        "skill_used": "mechanics",
-        "difficulty": 1,
-        "time": 3000,
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
         "autolearn": true,
-        "qualities": [ { "id": "HAMMER", "level": 2 } ],
-        "components": [ [ [ "bar_steel", 1 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "tin", 8 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
-        "result": "bar_steel",
+        "result": "seed_zinc",
         "type": "recipe",
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_MATERIALS",
-        "skill_used": "mechanics",
-        "difficulty": 6,
-        "time": 3000,
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
         "autolearn": true,
-        "tools": [ [ ["tongs", -1] ], [ ["anvil", -1] ], [ ["forge", 200], [ "oxy_torch", 80] ] ],
-        "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CHISEL", "level": 2 } ],
-        "components": [ [ [ "nugget_steel", 10 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "zinc_metal", 8 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_alu",
@@ -75,27 +98,62 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "nugget_alu", 4 ], [ "material_aluminium_ingot", 1 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [
+                [ "material_aluminium_ingot", 1 ]
+            ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
-        "result": "kevlar_plate",
+        "result": "seed_lead",
         "type": "recipe",
-        "category": "CC_ARMOR",
-        "subcategory": "CSC_ARMOR_OTHER",
-        "skill_used": "tailor",
-        "difficulty": 10,
-        "skills_required": [ "fabrication", 5 ],
-        "time": 70000,
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
         "autolearn": true,
-        "using": [ [ "filament", 135 ] ],
-        "qualities": [
-          { "id": "CUT", "level": 1 },
-          { "id": "SEW", "level": 1 }
-        ],
-        "componets": [ [ [ "kev_thread", 150 ] ], [ [ "sheet_metal", 2 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "lead", 4 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_copper",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "copper", 4 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_bronze",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "seed_tin", 2 ] ],
+            [ [ "seed_copper", 2 ] ]
+
+        ]
     },
     {
         "result": "seed_coal",
@@ -103,10 +161,14 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "coal_lump", 30 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "coal_lump", 30 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_rock_salt",
@@ -114,21 +176,14 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "material_rocksalt", 2 ] ], [ [ "seed_buckwheat", 4 ] ] ]
-    },
-    {
-        "result": "seed_rock_salt",
-        "type": "recipe",
-        "category": "CC_CHEM",
-        "subcategory": "CSC_CHEM_OTHER",
-        "skill_used": "cooking",
-        "difficulty": 4,
-        "time": 5000,
-        "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "material_rocksalt", 2 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "material_rocksalt", 2 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_rock",
@@ -136,10 +191,14 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "rock", 15 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "rock", 15 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_limestone",
@@ -147,10 +206,14 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "material_limestone", 2 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "material_limestone", 2 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
     },
     {
         "result": "seed_kev",
@@ -158,9 +221,205 @@
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
         "skill_used": "cooking",
-        "difficulty": 4,
+        "difficulty": 7,
         "time": 5000,
         "autolearn": true,
-        "components": [ [ [ "mutagen", 1 ] ], [ [ "kev_thread", 20 ] ], [ [ "seed_buckwheat", 4 ] ] ]
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "thread_kevlar", 20 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_biodiesel",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "biodiesel", 50 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_meat",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "meat", 10 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_plastic",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "plastic_chunk", 20 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_gunpowder",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "gunpowder", 20 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_bleach",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "bleach", 50 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_ammonia",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "ammonia", 50 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_ethanol",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "chem_ethanol", 50 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "result": "seed_sulfur",
+        "type": "recipe",
+        "category": "CC_CHEM",
+        "subcategory": "CSC_CHEM_OTHER",
+        "skill_used": "cooking",
+        "difficulty": 7,
+        "time": 5000,
+        "autolearn": true,
+        "components": [
+            [ [ "mutagen", 1 ] ],
+            [ [ "chunk_sulfur", 4 ] ],
+            [ [ "seed_buckwheat", 4 ] ]
+        ]
+    },
+    {
+        "type": "recipe",
+        "result": "biodiesel",
+        "charges": 50,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "5 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "biodiesel_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "bleach",
+        "charges": 30,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "5 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "bleach_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "ammonia",
+        "charges": 30,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "5 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "ammonia_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "chem_ethanol",
+        "charges": 250,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "5 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "ethanol_pod", 1 ] ] ]
     }
 ]
