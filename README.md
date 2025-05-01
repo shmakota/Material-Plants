@@ -1,4 +1,4 @@
-# Material Plants
+# Material Plants Bright Nights
 Originally by Spaghetti Admin. Added a bunch more crops, and fixed the mod.
 
 ## From soil to steel: cultivate the impossible!
