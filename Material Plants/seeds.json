@@ -170,10 +170,10 @@
         },
         "weight": 10,
         "volume": "0 ml",
-        "description": "A mutated buckwheat plant that produces threads of kevlar, along with buckwheat.",
+        "description": "A mutated buckwheat plant that produces plates of kevlar, along with buckwheat.",
         "seed_data": {
             "plant_name": "kevlar buckwheat",
-            "fruit": "thread_kevlar",
+            "fruit": "kevlar_plate",
             "byproducts": [ "buckwheat" ],
             "grow": 100
         }

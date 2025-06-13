@@ -226,7 +226,7 @@
         "autolearn": true,
         "components": [
             [ [ "mutagen", 1 ] ],
-            [ [ "thread_kevlar", 20 ] ],
+            [ [ "kevlar_plate", 1 ] ],
             [ [ "seed_buckwheat", 4 ] ]
         ]
     },
