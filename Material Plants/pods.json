@@ -1,0 +1,286 @@
+[
+    {
+        "id": "mutant_pod",
+        "type": "COMESTIBLE",
+        "//": "using pods allows us greater control over how much each plant produces, since we can't specify charges otherwise",
+        "name": { "str_sp": "mutant pod" },
+        "description": "A pod of biodiesel from a mutated plant.",
+        "weight": "300 g",
+        "volume": "250 ml",
+        "price": "5 USD",
+        "symbol": "*",
+        "price_postapoc": "50 cent",
+        "calories": 22,
+        "healthy": -2,
+        "fun": -10,
+        "vitamins": [
+            [ "mutant_toxin", 25 ]
+        ],
+        "flags": [ "RAW", "BAD_TASTE" ]
+    },
+    {
+        "id": "sulfur_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of sulfur chunks",
+            "str_pl": "pods of sulfur chunks"
+        },
+        "description": "A pod of sulfur chunks from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "gunpowder_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of gunpowder",
+            "str_pl": "pods of gunpowder"
+        },
+        "description": "A pod of gunpowder from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "steel_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of steel",
+            "str_pl": "pods of steel"
+        },
+        "description": "A pod of steel from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "sulfur_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of sulfur chunks",
+            "str_pl": "pods of sulfur chunks"
+        },
+        "description": "A pod of sulfur chunks from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "gunpowder_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of gunpowder",
+            "str_pl": "pods of gunpowder"
+        },
+        "description": "A pod of gunpowder from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "steel_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of steel",
+            "str_pl": "pods of steel"
+        },
+        "description": "A pod of steel from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "gold_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of gold",
+            "str_pl": "pods of gold"
+        },
+        "description": "A pod of gold from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "material_aluminum_foil_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of aluminum foil",
+            "str_pl": "pods of aluminum foil"
+        },
+        "description": "A pod of aluminum foil from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "silver_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of silver",
+            "str_pl": "pods of silver"
+        },
+        "description": "A pod of silver from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "coal_lump_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of coal lumps",
+            "str_pl": "pods of coal lumps"
+        },
+        "description": "A pod of coal lumps from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "material_rocksalt_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of rock salt",
+            "str_pl": "pods of rock salt"
+        },
+        "description": "A pod of rock salt from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "rock_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of rocks",
+            "str_pl": "pods of rocks"
+        },
+        "description": "A pod of rocks from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "material_limestone_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of limestone chunks",
+            "str_pl": "pods of limestone chunks"
+        },
+        "description": "A pod of limestone chunks from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "kevlar_plate_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of kevlar plates",
+            "str_pl": "pods of kevlar plates"
+        },
+        "description": "A pod of kevlar plates from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "plastic_chunk_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of plastic chunks",
+            "str_pl": "pods of plastic chunks"
+        },
+        "description": "A pod of plastic chunks from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "zinc_metal_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of zinc",
+            "str_pl": "pods of zinc"
+        },
+        "description": "A pod of zinc from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "lead_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of lead",
+            "str_pl": "pods of lead"
+        },
+        "description": "A pod of lead from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "meat_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of meat",
+            "str_pl": "pods of meat"
+        },
+        "description": "A disturbingly warm pod of meat from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "copper_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of copper",
+            "str_pl": "pods of copper"
+        },
+        "description": "A pod of copper from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "tin_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of tin",
+            "str_pl": "pods of tin"
+        },
+        "description": "A pod of tin from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "platinum_small_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of platinum",
+            "str_pl": "pods of platinum"
+        },
+        "description": "A pod of platinum from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "scrap_bronze_pod",
+        "type": "COMESTIBLE",
+        "copy-from": "mutant_pod",
+        "name": {
+            "str": "pod of bronze scraps",
+            "str_pl": "pods of bronze scraps"
+        },
+        "description": "A pod of bronze scraps from a mutated plant.",
+        "symbol": "*"
+    },
+    {
+        "id": "embryo_cow_fluid",
+        "type": "TOOL",
+        "name": { "str": "fluid cow embryo" },
+        "description": "This is a debug fluid cow embryo.  Choose a location for it to begin rapid growth.",
+        "volume": "60 L",
+        "weight": "80 kg",
+        "price": "20 kUSD",
+        "to_hit": -3,
+        "bashing": 8,
+        "material": [ "flesh" ],
+        "symbol": "@",
+        "color": "white",
+        "use_action": {
+            "type": "place_monster",
+            "monster_id": "mon_cow_fluid",
+            "friendly_msg": "The fluid cow rapidly expands, and begins licking your hand for the salt.",
+            "hostile_msg": "The fluid cow charges you in anger of its own existence!",
+            "difficulty": 1,
+            "moves": 250,
+            "skills": [ "survival" ]
+        }
+    }
+]

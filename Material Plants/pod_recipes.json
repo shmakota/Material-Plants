@@ -1,0 +1,283 @@
+[
+    {
+        "type": "recipe",
+        "result": "chunk_sulfur",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "sulfur_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "gunpowder",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "gunpowder_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "aluminum_foil",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "material_aluminum_foil_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "coal_lump",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "coal_lump_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "rock",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "rock_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "material_limestone",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "material_limestone_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "kevlar_plate",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "kevlar_plate_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "plastic_chunk",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "plastic_chunk_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "zinc_metal",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "zinc_metal_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "lead",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "lead_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "meat",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "meat_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "copper",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "copper_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "tin",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "tin_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "platinum_small",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "platinum_small_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "scrap_bronze",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [ { "id": "CUT", "level": 1 } ],
+        "components": [ [ [ "scrap_bronze_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "steel_chunk",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "steel_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "gold_small",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "gold_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "silver_small",
+        "charges": 200,
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "silver_pod", 1 ] ] ]
+    },
+    {
+        "type": "recipe",
+        "result": "material_rocksalt",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_OTHER",
+        "skill_used": "survival",
+        "time": "1 m",
+        "autolearn": true,
+        "batch_time_factors": [ 80, 5 ],
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            }
+        ],
+        "components": [ [ [ "material_rocksalt_pod", 1 ] ] ]
+    }
+]

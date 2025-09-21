@@ -104,7 +104,7 @@
         "components": [
             [ [ "mutagen", 1 ] ],
             [
-                [ "material_aluminium_ingot", 1 ]
+                [ "aluminum_foil", 1 ]
             ],
             [ [ "seed_buckwheat", 4 ] ]
         ]
@@ -171,7 +171,7 @@
         ]
     },
     {
-        "result": "seed_rock_salt",
+        "result": "seed_rocksalt",
         "type": "recipe",
         "category": "CC_CHEM",
         "subcategory": "CSC_CHEM_OTHER",
@@ -231,21 +231,6 @@
         ]
     },
     {
-        "result": "seed_biodiesel",
-        "type": "recipe",
-        "category": "CC_CHEM",
-        "subcategory": "CSC_CHEM_OTHER",
-        "skill_used": "cooking",
-        "difficulty": 7,
-        "time": 5000,
-        "autolearn": true,
-        "components": [
-            [ [ "mutagen", 1 ] ],
-            [ [ "biodiesel", 50 ] ],
-            [ [ "seed_buckwheat", 4 ] ]
-        ]
-    },
-    {
         "result": "seed_meat",
         "type": "recipe",
         "category": "CC_CHEM",
@@ -291,51 +276,6 @@
         ]
     },
     {
-        "result": "seed_bleach",
-        "type": "recipe",
-        "category": "CC_CHEM",
-        "subcategory": "CSC_CHEM_OTHER",
-        "skill_used": "cooking",
-        "difficulty": 7,
-        "time": 5000,
-        "autolearn": true,
-        "components": [
-            [ [ "mutagen", 1 ] ],
-            [ [ "bleach", 50 ] ],
-            [ [ "seed_buckwheat", 4 ] ]
-        ]
-    },
-    {
-        "result": "seed_ammonia",
-        "type": "recipe",
-        "category": "CC_CHEM",
-        "subcategory": "CSC_CHEM_OTHER",
-        "skill_used": "cooking",
-        "difficulty": 7,
-        "time": 5000,
-        "autolearn": true,
-        "components": [
-            [ [ "mutagen", 1 ] ],
-            [ [ "ammonia", 50 ] ],
-            [ [ "seed_buckwheat", 4 ] ]
-        ]
-    },
-    {
-        "result": "seed_ethanol",
-        "type": "recipe",
-        "category": "CC_CHEM",
-        "subcategory": "CSC_CHEM_OTHER",
-        "skill_used": "cooking",
-        "difficulty": 7,
-        "time": 5000,
-        "autolearn": true,
-        "components": [
-            [ [ "mutagen", 1 ] ],
-            [ [ "chem_ethanol", 50 ] ],
-            [ [ "seed_buckwheat", 4 ] ]
-        ]
-    },
-    {
         "result": "seed_sulfur",
         "type": "recipe",
         "category": "CC_CHEM",
@@ -349,77 +289,5 @@
             [ [ "chunk_sulfur", 4 ] ],
             [ [ "seed_buckwheat", 4 ] ]
         ]
-    },
-    {
-        "type": "recipe",
-        "result": "biodiesel",
-        "charges": 50,
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_OTHER",
-        "skill_used": "survival",
-        "time": "5 m",
-        "autolearn": true,
-        "batch_time_factors": [ 80, 5 ],
-        "qualities": [
-            {
-                "id": "CUT",
-                "level": 1
-            }
-        ],
-        "components": [ [ [ "biodiesel_pod", 1 ] ] ]
-    },
-    {
-        "type": "recipe",
-        "result": "bleach",
-        "charges": 30,
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_OTHER",
-        "skill_used": "survival",
-        "time": "5 m",
-        "autolearn": true,
-        "batch_time_factors": [ 80, 5 ],
-        "qualities": [
-            {
-                "id": "CUT",
-                "level": 1
-            }
-        ],
-        "components": [ [ [ "bleach_pod", 1 ] ] ]
-    },
-    {
-        "type": "recipe",
-        "result": "ammonia",
-        "charges": 30,
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_OTHER",
-        "skill_used": "survival",
-        "time": "5 m",
-        "autolearn": true,
-        "batch_time_factors": [ 80, 5 ],
-        "qualities": [
-            {
-                "id": "CUT",
-                "level": 1
-            }
-        ],
-        "components": [ [ [ "ammonia_pod", 1 ] ] ]
-    },
-    {
-        "type": "recipe",
-        "result": "chem_ethanol",
-        "charges": 250,
-        "category": "CC_OTHER",
-        "subcategory": "CSC_OTHER_OTHER",
-        "skill_used": "survival",
-        "time": "5 m",
-        "autolearn": true,
-        "batch_time_factors": [ 80, 5 ],
-        "qualities": [
-            {
-                "id": "CUT",
-                "level": 1
-            }
-        ],
-        "components": [ [ [ "ethanol_pod", 1 ] ] ]
     }
 ]
