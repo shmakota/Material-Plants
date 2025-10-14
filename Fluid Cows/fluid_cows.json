@@ -1,0 +1,645 @@
+[
+    {
+        "id": "mon_cow_fluid",
+        "type": "MONSTER",
+        "copy-from": "mon_cow",
+        "name": { "str": "fluid cow" },
+        "description": "A debug fluid cow.  If you are seeing this, it's a bug.",
+        "symbol": "F",
+        "color": "dark_gray",
+        "//": "must use generic cow DNA to get a fluid cow, not just the same one over and over"
+    },
+    {
+        "id": "mon_cow_catalyst",
+        "type": "MONSTER",
+        "copy-from": "mon_cow_fluid",
+        "name": { "str": "catalyst cow" },
+        "description": "This rare, sturdy cow is unlike any ordinary herd animal. It carries the potential for transformation - when it's DNA is examined and processed it can be mutated into a specialized fluid cow, carrying the essence of milk, soda, fuel, or other strange liquids. Handle it carefully: its value lies in what it *can become*.",
+        "symbol": "C",
+        "color": "dark_gray",
+        "upgrades": { "age_grow": 9999999, "into_group": "GROUP_FLUID_COW_UPGRADE" }
+    },
+    {
+        "id": "mon_cow_choc_drink",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "chocolate drink cow" },
+        "description": "This cow’s milk is thick, sweet, and suspiciously chocolate-flavored. No one knows how or why, but it seems perfectly happy producing a dessert beverage straight from the source.",
+        "symbol": "C",
+        "color": "brown",
+        "starting_ammo": { "choc_drink": 40 }
+    },
+    {
+        "id": "mon_cow_water_clean",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "clean water cow" },
+        "description": "A miracle of biology: this cow produces pure, crystal-clear drinking water instead of milk. Travelers have been known to follow her for days just to stay hydrated.",
+        "symbol": "C",
+        "color": "light_blue",
+        "starting_ammo": { "water_clean": 40 }
+    },
+    {
+        "id": "mon_cow_salt_water",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "salt water cow" },
+        "description": "An ocean-tinted cow that glistens like the sea. Its udders produce pure, briny water, reminiscent of the ocean itself. Sailors and travelers sometimes seek it out, drawn by the promise of hydration and a touch of the sea.",
+        "symbol": "S",
+        "color": "blue",
+        "starting_ammo": { "salt_water": 40 }
+    },
+    {
+        "id": "mon_cow_gasoline",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "gasoline cow" },
+        "description": "The smell of petrol hits you before you even see it. Its udders slosh with highly flammable gasoline, making it both a valuable fuel source and a walking fire hazard.",
+        "symbol": "G",
+        "color": "green",
+        "starting_ammo": { "gasoline": 40 }
+    },
+    {
+        "id": "mon_cow_diesel",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "diesel cow" },
+        "description": "This heavy, lumbering cow reeks of diesel exhaust. Thick, greasy liquid drips from its udders, perfect for running engines - if you’re brave enough to collect it.",
+        "symbol": "D",
+        "color": "red",
+        "starting_ammo": { "diesel": 40 }
+    },
+    {
+        "id": "mon_cow_biodiesel",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "biodiesel cow" },
+        "description": "A sturdy, earthy cow that smells faintly of plants and oilseed. Its udders produce biodiesel, a renewable fuel that carries a faintly sweet, vegetal scent. Unlike its fossil-fuel cousins, it seems more environmentally conscious - though still capable of causing a fiery mess if mishandled.",
+        "symbol": "B",
+        "color": "green",
+        "starting_ammo": { "biodiesel": 40 }
+    },
+    {
+        "id": "mon_cow_jp8",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "jp8 cow" },
+        "description": "A strangely refined-looking bovine that seems to exude an aura of military precision. Its udders are filled with JP-8 jet fuel, enough to keep aircraft flying - or set a massive blaze.",
+        "symbol": "J",
+        "color": "brown",
+        "starting_ammo": { "jp8": 40 }
+    },
+    {
+        "id": "mon_cow_avgas",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "avgas cow" },
+        "description": "Lighter and quicker than other cows, this one produces avgas, the refined fuel for piston aircraft. The faint smell of aviation permeates the air around it.",
+        "symbol": "A",
+        "color": "light_blue",
+        "starting_ammo": { "avgas": 40 }
+    },
+    {
+        "id": "mon_cow_napalm",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "napalm cow" },
+        "description": "The ultimate in terrifying livestock: its udders drip a thick, sticky gel that bursts into roaring flames on contact with air. Best handled from a distance - preferably with a fire extinguisher nearby.",
+        "symbol": "N",
+        "color": "white",
+        "starting_ammo": { "napalm": 40 }
+    },
+    {
+        "id": "mon_cow_chem_ethanol",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "ethanol cow" },
+        "description": "This cow gives off a faintly sweet, alcoholic aroma. Its udders hold nearly pure ethanol, making it both a portable distillery and a danger to open flames.",
+        "symbol": "E",
+        "color": "white",
+        "starting_ammo": { "chem_ethanol": 40 }
+    },
+    {
+        "id": "mon_cow_moonshine",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "moonshine cow" },
+        "description": "This cow smells like a backwoods still on a hot summer night. Its udders produce strong, clear moonshine - perfect for drinking, bartering, or starting fires, depending on your priorities.",
+        "symbol": "M",
+        "color": "light_gray",
+        "starting_ammo": { "moonshine": 40 }
+    },
+    {
+        "id": "mon_cow_atomic_coffee",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "atomic coffee cow" },
+        "description": "This jittery cow practically vibrates with energy. Its udders dispense a scalding-hot brew of atomic coffee strong enough to keep you awake for days - or stop your heart if you’re unlucky.",
+        "symbol": "C",
+        "color": "brown",
+        "starting_ammo": { "atomic_coffee": 40 }
+    },
+    {
+        "id": "mon_cow_energy_drink_atomic",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "atomic energy drink cow" },
+        "description": "This hyperactive cow twitches, snorts, and seems to never stop moving. Its udders spray a glowing, sugary concoction that tastes like pure adrenaline and poor life choices.",
+        "symbol": "E",
+        "color": "light_green",
+        "starting_ammo": { "energy_drink_atomic": 40 }
+    },
+    {
+        "id": "mon_cow_ammonia",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "ammonia cow" },
+        "description": "This cow reeks of harsh, chemical fumes that sting your eyes and nose. Its udders drip clear ammonia, a vital component for many chemical recipes. Rumor has it that pairing it with its bleach counterpart is required to brew mutagen - though anyone who’s tried making a 'mutagen cow' says the result was an ever-changing, nightmarish creature best avoided.",
+        "symbol": "A",
+        "color": "light_gray",
+        "starting_ammo": { "ammonia": 40 }
+    },
+    {
+        "id": "mon_cow_sulfuric_acid",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sulfuric acid cow" },
+        "description": "A dangerous, hissing cow with a faint yellow-green tinge around its hide. Its udders seethe with concentrated sulfuric acid, capable of burning through metal and stone. Even the fumes are hazardous, making it a creature to approach only with extreme caution.",
+        "symbol": "S",
+        "color": "yellow_green",
+        "starting_ammo": { "chem_sulphuric_acid": 40 }
+    },
+    {
+        "id": "mon_cow_bleach",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "bleach cow" },
+        "description": "A sharp, acrid smell surrounds this cow, and its udders leak a pale, caustic liquid that can burn skin on contact. Essential for disinfection and chemistry, its presence is strangely prized. Like its ammonia counterpart, it is rumored to be a key ingredient for mutagen - though every attempt at a dedicated 'mutagen cow' has resulted in an uncontrollable, endlessly mutating horror.",
+        "symbol": "B",
+        "color": "white",
+        "starting_ammo": { "bleach": 40 }
+    },
+    {
+        "id": "mon_cow_sizzurp",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sizzurp lean cow" },
+        "description": "This sluggish, droopy-eyed cow seems perpetually mellowed out. Its udders ooze a thick, purple syrup that smells sweet but leaves a strange, intoxicating haze in the air. Approaching too closely may make you feel lightheaded - or inexplicably calm in the middle of danger.",
+        "symbol": "S",
+        "color": "magenta",
+        "starting_ammo": { "sizzurp": 40 }
+    },
+    {
+        "id": "mon_cow_thc_liquid",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "thc distillate cow" },
+        "description": "This cow moves slowly and seems to forget its surroundings at times. Its udders secrete a thick, greenish oil that smells earthy and pungent. Even standing nearby can make one feel oddly relaxed and detached from the world, as if time itself is stretching.",
+        "symbol": "T",
+        "color": "light_green",
+        "starting_ammo": { "thc_liquid": 40 }
+    },
+    {
+        "id": "mon_cow_nicotine_liquid",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "nicotine liquid cow" },
+        "description": "This jittery, restless cow seems perpetually on edge. Its udders leak a dark, oily liquid with a sharp, acrid smell. The aroma alone can make anyone nearby twitchy and anxious, a reminder of nicotine’s addictive bite.",
+        "symbol": "N",
+        "color": "yellow",
+        "starting_ammo": { "nicotine_liquid": 40 }
+    },
+    {
+        "id": "mon_cow_protein_shake",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "protein shake cow" },
+        "description": "A bulky, muscular cow that looks like it spends its days in a barn gym. Its udders churn out thick, creamy protein shakes, and even a brief encounter leaves you feeling oddly fortified and full of energy.",
+        "symbol": "P",
+        "color": "light_gray",
+        "starting_ammo": { "protein_shake": 40 }
+    },
+    {
+        "id": "mon_cow_pine_soda",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "pine needle soda cow" },
+        "description": "This fresh-smelling cow emits a crisp, piney aroma. Its udders bubble with fizzy, green soda infused with pine needles, giving off a scent that’s invigorating and oddly forest-like.",
+        "symbol": "P",
+        "color": "green",
+        "starting_ammo": { "pine_soda": 40 }
+    },
+    {
+        "id": "mon_cow_milk_tea_sweetened",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sweetened milk tea cow" },
+        "description": "A calm, warm cow with a gentle disposition. Its udders produce sweet, creamy milk tea that smells like honey and caramel, perfect for a comforting drink on a cold day.",
+        "symbol": "M",
+        "color": "brown",
+        "starting_ammo": { "milk_tea_sweetened": 40 }
+    },
+    {
+        "id": "mon_cow_coca_tea",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "coca tea cow" },
+        "description": "This serene cow exudes a faint, herbal aroma. Its udders produce coca tea, a bitter-sweet infusion known for its stimulating properties. Calm yet alert, it seems perfectly content to graze quietly, though its brew can give anyone nearby a gentle, energizing boost.",
+        "symbol": "C",
+        "color": "green",
+        "starting_ammo": { "coca_tea": 40 }
+    },
+    {
+        "id": "mon_cow_rehydration_drink",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "rehydration drink cow" },
+        "description": "A practical, no-nonsense cow that seems focused on function over form. Its udders dispense clear, lightly flavored rehydration liquid, perfect for quenching thirst and replenishing electrolytes after a long day.",
+        "symbol": "R",
+        "color": "light_cyan",
+        "starting_ammo": { "rehydration_drink": 40 }
+    },
+    {
+        "id": "mon_cow_acid",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "acid cow" },
+        "description": "A strangely menacing cow that seems to sizzle wherever it steps. Its udders drip a corrosive, transparent acid that can eat through metal and flesh alike, making it a highly dangerous encounter for anyone careless enough to approach.",
+        "symbol": "A",
+        "color": "light_green",
+        "starting_ammo": { "acid": 40 }
+    },
+    {
+        "id": "mon_cow_sewage",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sewage cow" },
+        "description": "This foul-smelling cow oozes with dark, murky sewage. The stench is overwhelming and can sicken nearby creatures, making it as much a biohazard as a source of waste fluid.",
+        "symbol": "S",
+        "color": "brown",
+        "starting_ammo": { "sewage": 40 }
+    },
+    {
+        "id": "mon_cow_motor_oil",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "motor oil cow" },
+        "description": "A greasy, black-coated cow that leaves slick trails wherever it walks. Its udders secrete thick, dark motor oil, which stains everything it touches and can make the ground dangerously slippery.",
+        "symbol": "M",
+        "color": "dark_gray",
+        "starting_ammo": { "motor_oil": 40 }
+    },
+    {
+        "id": "mon_cow_disinfectant",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "antiseptic cow" },
+        "description": "This clean-smelling cow emits a faint, sharp scent of chemicals. Its udders drip antiseptic liquid capable of disinfecting wounds or sterilizing surfaces, though the fumes can sting eyes and lungs if inhaled too closely.",
+        "symbol": "A",
+        "color": "light_cyan",
+        "starting_ammo": { "disinfectant": 40 }
+    },
+    {
+        "id": "mon_cow_plut_slurry_dense",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "dense plutonium slurry cow" },
+        "description": "A glowing, dangerous cow with a faint, eerie green aura. Its udders secrete highly radioactive plutonium slurry, making it lethal to approach without extreme caution. Its presence can irradiate the surrounding area over time.",
+        "symbol": "P",
+        "color": "green",
+        "starting_ammo": { "plut_slurry_dense": 40 }
+    },
+    {
+        "id": "mon_cow_pudding",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "pudding cow" },
+        "description": "This soft, squishy cow seems almost unreal, with a jiggly gait that makes it wobble as it walks. Its udders produce thick, creamy pudding in flavors that vary mysteriously, leaving a sweet, rich aroma in the air. Beware—getting too close may leave you covered in dessert.",
+        "symbol": "P",
+        "color": "light_gray",
+        "starting_ammo": { "pudding": 40 }
+    },
+    {
+        "id": "mon_cow_icecream",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "ice cream cow" },
+        "description": "This cool, creamy cow exudes an aura of frozen sweetness. Its udders produce smooth ice cream in a variety of flavors that seem to change with the mood of the cow. The air around it is crisp, cold, and deliciously inviting.",
+        "symbol": "I",
+        "color": "white",
+        "starting_ammo": { "icecream": 40 }
+    },
+    {
+        "id": "mon_cow_milkshake_deluxe",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "deluxe milkshake cow" },
+        "description": "A vibrant, indulgent cow with a glossy sheen. Its udders dispense thick, rich milkshakes. Encountering it is like stepping into a decadent dessert parlor, but the sheer volume of liquid it produces can be overwhelming.",
+        "symbol": "D",
+        "color": "white",
+        "starting_ammo": { "milkshake_deluxe": 40 }
+    },
+    {
+        "id": "mon_cow_icecream_sorbet",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sorbet cow" },
+        "description": "This bright, tangy cow seems almost sparkling in its movements. Its udders produce smooth, fruity sorbet in vivid colors, leaving a refreshing, zesty aroma in the air. Approaching too closely might tempt you to taste the rainbow it carries.",
+        "symbol": "S",
+        "color": "yellow",
+        "starting_ammo": { "icecream_sorbet": 40 }
+    },
+    {
+        "id": "mon_cow_icecream_yogurt",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "yogurt cow" },
+        "description": "This smooth, tangy cow emits a gentle, creamy aroma. Its udders produce thick frozen yogurt that is slightly tart but refreshing, offering a light, healthy-sweet experience.",
+        "symbol": "Y",
+        "color": "white",
+        "starting_ammo": { "icecream_yogurt": 40 }
+    },
+    {
+        "id": "mon_cow_icecream_custard",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "custard cow" },
+        "description": "A soft, golden cow that radiates warmth. Its udders drip rich, velvety custard, thick and sweet, leaving a scent of vanilla and egg that is comforting and indulgent.",
+        "symbol": "C",
+        "color": "white",
+        "starting_ammo": { "icecream_custard": 40 }
+    },
+    {
+        "id": "mon_cow_icecream_gelato",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "gelato cow" },
+        "description": "This elegant cow moves gracefully, with a silky coat. Its udders produce dense, flavorful gelato, smoother and richer than regular ice cream, leaving a sophisticated, sweet aroma in its wake.",
+        "symbol": "G",
+        "color": "white",
+        "starting_ammo": { "icecream_gelato": 40 }
+    },
+    {
+        "id": "mon_cow_rootbeer",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "root beer cow" },
+        "description": "This fizzy brown cow bubbles with energy. Its udders produce creamy root beer, leaving a rich, sweet, and slightly spicy aroma in the air.",
+        "symbol": "R",
+        "color": "brown",
+        "starting_ammo": { "rootbeer": 40 }
+    },
+    {
+        "id": "mon_cow_lemonlime",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "lemon-lime soda cow" },
+        "description": "A bright, zesty cow that seems to sparkle in the sunlight. Its udders drip fizzy lemon-lime soda, filling the air with a refreshing citrus scent.",
+        "symbol": "L",
+        "color": "yellow",
+        "starting_ammo": { "lemonlime": 40 }
+    },
+    {
+        "id": "mon_cow_cola",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "cola cow" },
+        "description": "A deep brown cow with a sweet, caramel-like aroma. Its udders dispense classic cola, leaving a fizzy, slightly spicy scent that tingles the nose.",
+        "symbol": "C",
+        "color": "brown",
+        "starting_ammo": { "cola": 40 }
+    },
+    {
+        "id": "mon_cow_colamdew",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "energy dew cow" },
+        "description": "This hyperactive cow practically hums with energy. Its udders squirt a vibrant, fizzy energy drink that tastes like cola mixed with mountain dew, leaving a tangy-sweet scent in the air.",
+        "symbol": "E",
+        "color": "light_green",
+        "starting_ammo": { "colamdew": 40 }
+    },
+    {
+        "id": "mon_cow_purple_drink",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "grape soda cow" },
+        "description": "A purple-coated cow that exudes a fruity aroma. Its udders dispense sweet grape soda, filling the air with a candy-like scent that’s instantly nostalgic.",
+        "symbol": "G",
+        "color": "magenta",
+        "starting_ammo": { "purple_drink": 40 }
+    },
+    {
+        "id": "mon_cow_orangesoda",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "orange soda cow" },
+        "description": "This bright orange cow is bubbly and cheerful. Its udders drip fizzy orange soda, filling the surrounding air with a sweet citrus punch.",
+        "symbol": "O",
+        "color": "yellow",
+        "starting_ammo": { "orangesoda": 40 }
+    },
+    {
+        "id": "mon_cow_suicidesoda",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "suicide soda cow" },
+        "description": "A wild, multicolored cow that looks like it could explode at any moment. Its udders pour a mixture of every soda flavor imaginable, leaving a chaotic, sugary mess behind.",
+        "symbol": "S",
+        "color": "dark_gray",
+        "starting_ammo": { "suicidesoda": 40 }
+    },
+    {
+        "id": "mon_cow_creamsoda",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "cream soda cow" },
+        "description": "A soft, pale cow that exudes a sweet vanilla aroma. Its udders dispense smooth, creamy soda, leaving a warm, nostalgic scent in its wake.",
+        "symbol": "C",
+        "color": "white",
+        "starting_ammo": { "creamsoda": 40 }
+    },
+    {
+        "id": "mon_cow_crispycran",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "crispy cranberry soda cow" },
+        "description": "A vivid red cow that smells tart and fruity. Its udders secrete cranberry soda, leaving a tangy, refreshing scent that’s both sweet and sharp.",
+        "symbol": "C",
+        "color": "red",
+        "starting_ammo": { "crispycran": 40 }
+    },
+    {
+        "id": "mon_cow_hot_chocolate",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "hot chocolate cow" },
+        "description": "A cozy, brown cow that radiates warmth. Its udders pour rich, chocolatey hot chocolate, leaving a comforting aroma that can brighten even the coldest day.",
+        "symbol": "H",
+        "color": "brown",
+        "starting_ammo": { "hot_chocolate": 40 }
+    },
+    {
+        "id": "mon_cow_tea_sweetened",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sweet tea cow" },
+        "description": "A calm, amber-colored cow that emits a sweet, refreshing aroma. Its udders dispense sweetened tea, evoking a gentle, Southern charm in the air around it.",
+        "symbol": "T",
+        "color": "brown",
+        "starting_ammo": { "tea_sweetened": 40 }
+    },
+    {
+        "id": "mon_cow_lemonade",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "lemonade cow" },
+        "description": "A bright yellow cow that smells like fresh-squeezed citrus. Its udders drip tangy, sweet lemonade, leaving a zesty, refreshing scent wherever it roams.",
+        "symbol": "L",
+        "color": "yellow",
+        "starting_ammo": { "lemonade": 40 }
+    },
+    {
+        "id": "mon_cow_sikhye",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sikhye cow" },
+        "description": "A gentle, golden-hued cow that exudes a sweet, comforting aroma of rice and malt. Its udders produce chilled sikhye, a lightly sweet, slightly grainy drink that refreshes and warms the spirit with each sip.",
+        "symbol": "S",
+        "color": "yellow",
+        "starting_ammo": { "sikhye": 40 }
+    },
+    {
+        "id": "mon_cow_sikhye",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "sikhye cow" },
+        "description": "A gentle, golden-hued cow that exudes a sweet, comforting aroma of rice and malt. Its udders produce chilled sikhye, a lightly sweet, slightly grainy drink that refreshes and warms the spirit with each sip.",
+        "symbol": "S",
+        "color": "yellow",
+        "starting_ammo": { "sikhye": 40 }
+    },
+    {
+        "id": "mon_cow_cooking_oil",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "vegetable cooking oil cow" },
+        "description": "This slick, golden cow glistens in the light. Its udders drip smooth vegetable oil, leaving a faint, nutty aroma in the air. Watch your step—its oily trails make the ground slippery, and a careless encounter could end in a greasy mess.",
+        "symbol": "O",
+        "color": "yellow",
+        "starting_ammo": { "cooking_oil": 40 }
+    },
+    {
+        "id": "mon_cow_blood",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "blood cow" },
+        "description": "A dark, crimson cow with a foreboding presence. Its udders drip thick, warm blood, leaving a metallic scent that hangs in the air. Its very existence seems to carry a sense of primal danger, as though the life it produces is not meant for the faint of heart.",
+        "symbol": "B",
+        "color": "red",
+        "starting_ammo": { "blood": 40 }
+    },
+    {
+        "id": "mon_cow_soup_mushroom",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "mushroom soup cow" },
+        "description": "A cozy, brown cow with a rich, earthy scent. Its udders produce thick, creamy mushroom soup, filling the air with the aroma of fresh forest fungi.",
+        "symbol": "M",
+        "color": "brown",
+        "starting_ammo": { "soup_mushroom": 40 }
+    },
+    {
+        "id": "mon_cow_soup_meat",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "meat soup cow" },
+        "description": "A robust, dark-coated cow that smells hearty and savory. Its udders drip rich meat broth, infused with herbs and spices, as if it wandered straight from a kitchen stove.",
+        "symbol": "M",
+        "color": "brown",
+        "starting_ammo": { "soup_meat": 40 }
+    },
+    {
+        "id": "mon_cow_soup_woods",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "woods soup cow" },
+        "description": "A green-tinged cow that seems at one with the forest. Its udders produce a wild, herbal broth, filled with flavors of moss, roots, and forest plants, leaving a fresh woodland aroma behind.",
+        "symbol": "F",
+        "color": "green",
+        "starting_ammo": { "soup_woods": 40 }
+    },
+    {
+        "id": "mon_cow_mex_chocolate",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "Mexican hot chocolate cow" },
+        "description": "A warm, dark brown cow with a hint of spice in its aura. Its udders produce rich Mexican hot chocolate, infused with cinnamon and chili, filling the air with a comforting yet slightly fiery aroma that invites both caution and indulgence.",
+        "symbol": "M",
+        "color": "brown",
+        "starting_ammo": { "mex_chocolate": 40 }
+    },
+    {
+        "id": "mon_cow_soup_fish",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "fish soup cow" },
+        "description": "A silvery, sleek cow that smells of the sea. Its udders produce warm fish soup, rich with savory flavors of ocean herbs and seafood, leaving a briny, comforting aroma wherever it goes.",
+        "symbol": "F",
+        "color": "light_gray",
+        "starting_ammo": { "soup_fish": 40 }
+    },
+    {
+        "id": "mon_cow_syrup",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "maple syrup cow" },
+        "description": "A warm, amber-coated cow with a sweet, comforting aroma. Its udders produce thick, golden maple syrup, dripping slowly like liquid sunshine. Perfect for pancakes, desserts, or any breakfast delight, but approaching too closely may leave you sticky.",
+        "symbol": "M",
+        "color": "brown",
+        "starting_ammo": { "syrup": 40 }
+    },
+    {
+        "id": "mon_cow_honey_bottled",
+        "copy-from": "mon_cow_fluid",
+        "type": "MONSTER",
+        "name": { "str": "honey cow" },
+        "description": "A gentle, golden cow that exudes the fragrance of blooming flowers. Its udders drip rich, sweet honey, attracting bees and anyone with a sweet tooth. Handling with care is advised—its golden streams are sticky but irresistible.",
+        "symbol": "H",
+        "color": "yellow",
+        "starting_ammo": { "honey_bottled": 40 }
+    },
+    {
+        "type":"monstergroup",
+        "name": "GROUP_FOREST",
+        "default": "mon_null",
+        "monsters": [
+            { "monster": "mon_cow_catalyst", "freq": 2, "cost_multiplier": 3, "pack_size": [ 5, 8 ], "starts": 504 }
+        ]
+    },
+    {
+        "type":"monstergroup",
+        "name": "GROUP_SAFE",
+        "default": "mon_null",
+        "monsters": [
+            { "monster": "mon_cow_catalyst", "freq": 2, "pack_size": [ 5, 8 ], "cost_multiplier": 5 }
+        ]
+    },
+    {
+        "type":"monstergroup",
+        "name": "GROUP_DOMESTIC",
+        "default": "mon_null",
+        "monsters": [
+            { "monster": "mon_cow_catalyst", "freq": 1, "pack_size": [ 5, 8 ], "cost_multiplier": 25 }
+        ]
+    },
+    {
+        "name": "GROUP_COWS",
+        "type": "monstergroup",
+        "default": "mon_null",
+        "is_safe": true,
+        "monsters": [
+            { "monster": "mon_cow_catalyst", "freq": 1, "pack_size": [ 5, 8 ], "cost_multiplier": 5, "ends": 168 }
+        ]
+    }
+]

@@ -5,9 +5,9 @@
       "name": "Material Plants",
       "authors": [ "Broken \"Spaghetti\" Admin", "Kota" ],
       "maintainers": [ "Broken \"Spaghetti\" Admin", "Kota" ],
-      "description": "Adds mutated plants that grow materials like steel and gold.\n\nExhaustive list: aluminum, coal, gold, silver, zinc, tin, lead, copper, platinum, bronze, steel, rock, rocksalt, sulfur, limestone, gunpowder, kevlar, bleach, ammonia, ethanol, biodiesel, plastic, and meat.",
+      "description": "Adds mutated plants that grow materials like steel and gold.\n\nExhaustive list: aluminum, coal, gold, silver, zinc, tin, lead, copper, platinum, bronze, steel, rock, rocksalt, sulfur, limestone, gunpowder, kevlar, plastic, and meat.",
       "category": "items",
-      "version": "9/20/2025",
+      "version": "10/13/2025",
       "dependencies": [ "bn" ],
       "obsolete": false
     }

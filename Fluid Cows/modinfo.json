@@ -1,0 +1,14 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "fluid_cows",
+    "name": "Fluid Cows",
+    "authors": [ "Kota" ],
+    "maintainers": [ "Kota" ],
+    "description": "Adds mutated cows that produce exotic fluids obtained through catalyst cows.",
+    "category": "items",
+    "version": "10/13/2025",
+    "dependencies": [ "bn" ],
+    "obsolete": false
+  }
+]  
