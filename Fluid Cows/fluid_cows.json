@@ -17,7 +17,7 @@
         "description": "This rare, sturdy cow is unlike any ordinary herd animal. It carries the potential for transformation - when it's DNA is examined and processed it can be mutated into a specialized fluid cow, carrying the essence of milk, soda, fuel, or other strange liquids. Handle it carefully: its value lies in what it *can become*.",
         "symbol": "C",
         "color": "dark_gray",
-        "upgrades": { "age_grow": 9999999, "into_group": "GROUP_FLUID_COW_UPGRADE" }
+        "upgrades": { "age_grow": 7, "into_group": "GROUP_FLUID_COW_UPGRADE" }
     },
     {
         "id": "mon_cow_choc_drink",
