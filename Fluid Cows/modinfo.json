@@ -7,7 +7,7 @@
     "maintainers": [ "Kota" ],
     "description": "Adds mutated cows that produce exotic fluids obtained through catalyst cows.",
     "category": "items",
-    "version": "10/13/2025",
+    "version": "10/22/2026",
     "dependencies": [ "bn" ],
     "obsolete": false
   }

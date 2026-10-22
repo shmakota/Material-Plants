@@ -61,7 +61,9 @@
       { "monster": "mon_cow_mex_chocolate", "freq": 100, "cost_multiplier": 1 },
       { "monster": "mon_cow_soup_fish", "freq": 100, "cost_multiplier": 1 },
       { "monster": "mon_cow_syrup", "freq": 100, "cost_multiplier": 1 },
-      { "monster": "mon_cow_honey_bottled", "freq": 100, "cost_multiplier": 1 }
+      { "monster": "mon_cow_honey_bottled", "freq": 100, "cost_multiplier": 1 },
+      { "monster": "mon_cow_industrial_lubricant", "freq": 100, "cost_multiplier": 1 },
+      { "monster": "mon_cow_superglue", "freq": 100, "cost_multiplier": 1 }
     ]
   }
 ]
